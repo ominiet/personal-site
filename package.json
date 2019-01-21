@@ -1,0 +1,11 @@
+{
+  "name": "personal-site",
+  "version": "0.1.0",
+  "description": "Personal portfolio site for Oscar Miniet",
+  "main": "server.js",
+  "author": "Oscar Miniet <ominiet96@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.29.0"
+  }
+}
