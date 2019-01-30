@@ -6,9 +6,9 @@
   "author": "Oscar Miniet <ominiet96@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production",
-    "start-server": "node server.js"
+    "frontend": "webpack-dev-server --mode development --open --hot",
+    "prestart": "webpack --mode production",
+    "start": "node server.js"
   },
   "dependencies": {
     "react": "^16.7.0",
