@@ -1,5 +1,4 @@
 let express = require('express'),
-    webpack = require('webpack'),
     path    = require('path');
 
 const PORT = process.env.PORT || 8080
